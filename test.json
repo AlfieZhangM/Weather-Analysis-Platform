@@ -1,0 +1,17 @@
+{
+  "score": 75,
+  "full_score": 100,
+  "tests": {
+    "test_all_files_present": "PASS (5/5)",
+    "test_p7_image_builds": "PASS (5/5)",
+    "test_p7_image_runs": "PASS (5/5)",
+    "test_producer_configs": "PASS (5/5)",
+    "test_topics_created": "PASS (15/15)",
+    "test_producer_messages": "PASS (15/15)",
+    "test_proto_build": "PASS (5/5)",
+    "test_debug_consumer_output": "PASS (10/10)",
+    "test_consumer_runs": "PASS (10/10)",
+    "test_partition_json_creation": "Failed to generate and read /src/partition-0.json from within the container: Command 'docker exec p7-autograder-kafka cat /src/partition-0.json' returned non-zero exit status 1.",
+    "test_partition_json_contents": "Failed to read /src/partition-0.json inside the container."
+  }
+}

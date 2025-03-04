@@ -1,0 +1,7 @@
+syntax= "proto3";
+
+message Report{
+    string date=1;      //(format "YYYY-MM-DD") - Date of the observation
+    double degrees=2;   //Observed max-temperature on this date
+    string station_id=3;//Station ID for the generated weather data
+}
